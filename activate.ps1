@@ -49,6 +49,9 @@ if (-not $args) {
     try { [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 } catch {}
 
     $URLs = @(
+        'https://mas.fsy.qzz.io/MAS_AIO.cmd', 
+        'https://mas.fsyfsyfsy.dpdns.org/MAS_AIO.cmd', 
+        'https://raw.githubusercontent.com/FuSiYu666/Microsoft-Activation-Scripts/refs/heads/main/MAS_AIO.cmd',
         'https://raw.githubusercontent.com/massgravel/Microsoft-Activation-Scripts/3917497c826685ffc6f3d025397e5c8c4f7fa744/MAS/All-In-One-Version-KL/MAS_AIO.cmd',
         'https://dev.azure.com/massgrave/Microsoft-Activation-Scripts/_apis/git/repositories/Microsoft-Activation-Scripts/items?path=/MAS/All-In-One-Version-KL/MAS_AIO.cmd&versionType=Commit&version=3917497c826685ffc6f3d025397e5c8c4f7fa744',
         'https://git.activated.win/massgrave/Microsoft-Activation-Scripts/raw/commit/3917497c826685ffc6f3d025397e5c8c4f7fa744/MAS/All-In-One-Version-KL/MAS_AIO.cmd'
