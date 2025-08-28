@@ -1,7 +1,7 @@
 if (-not $args) {
     Write-Host ''
-    Write-Host 'Need help? Check our homepage: ' -NoNewline
-    Write-Host 'https://massgrave.dev' -ForegroundColor Green
+    Write-Host '需要帮助? 访问以下网址!' -NoNewline
+    Write-Host 'https://github.com/FuSiYu666/Microsoft-Activation-Scripts' -ForegroundColor Green
     Write-Host ''
 }
 
