@@ -1,6 +1,6 @@
 if (-not $args) {
     Write-Host ''
-    Write-Host '需要帮助? 访问以下网址!' -NoNewline
+    Write-Host 'Need help? Check the homepage: ' -NoNewline
     Write-Host 'https://github.com/FuSiYu666/Microsoft-Activation-Scripts' -ForegroundColor Green
     Write-Host ''
 }
@@ -87,7 +87,7 @@ if (-not $args) {
     }
 
     # Verify script integrity
-    $releaseHash = '4A0123C97E7859679DD49F22D5948FD77A775CC526B9E07797FC293C6C7731BC'
+    $releaseHash = '4a0123c97e7859679dd49f22d5948fd77a775cc526b9e07797fc293c6c7731bc'
     $stream = New-Object IO.MemoryStream
     $writer = New-Object IO.StreamWriter $stream
     $writer.Write($response)
